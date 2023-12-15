@@ -1,0 +1,9 @@
+.about{
+background-image: url(./images/k.jpg);
+background-size: contain;
+background-position: center;
+display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: 20px;
+  margin-top: 5rem;
+}
