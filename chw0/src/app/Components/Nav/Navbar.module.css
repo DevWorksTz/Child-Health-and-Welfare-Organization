@@ -1,46 +1,85 @@
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 1.5rem;
-    background-color: #fff;
-    color:black; 
-    border-radius: 8px;
-    margin: 0 auto;
-    margin-top: 0.5rem;
-    opacity: 80%;
-    position:fixed;
-    flex: 0 0 auto; 
-    z-index: 100;
-    transform: translateX(65%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  background-color: #fff;
+  color: black;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  opacity: 80%;
+  position: fixed;
+  flex: 0 0 auto;
+  z-index: 100;
+  transform: translateX(65%);
+
+  /* Center navbar on smaller screens */
+  @media only screen and (max-width: 768px) {
+    transform: translateX(0);
   }
-  
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 5rem;
+  font: black;
+
+  /* Reduce logo margin on smaller screens */
+  @media only screen and (max-width: 768px) {
+    margin-right: 1rem;
+  }
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 1;
+  flex-grow: 1; /* Fill remaining space on smaller screens */
+}
+
+.navLinks li {
+  margin-right: 1.2rem;
+
+  /* Reduce margin between links on smaller screens */
+  @media only screen and (max-width: 768px) {
+    margin-right: 0.5rem;
+  }
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navLinks a:hover {
+  background-color: royalblue;
+  opacity: 85%;
+}
+
+/* Stack elements on very small screens */
+@media only screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column; /* Stack elements vertically */
+  }
   .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-right:5rem;
-    font:black;
+    margin-bottom: 1rem; /* Add space between logo and links */
   }
-  
+}
+.hamburgerBtn {
+  display: none;
+}
+
+@media (max-width: 768px) { /* Adjust screen size as needed */
   .navLinks {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 1;
+    display: none;
   }
-  
-  .navLinks li {
-    margin-right: 1.2rem;
+  .hamburgerBtn {
+    display: block;
   }
-  
-  .navLinks a {
-    text-decoration: none;
-    color: black;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .navLinks a:hover {
-    background-color: lightskyblue;
-  }
+}

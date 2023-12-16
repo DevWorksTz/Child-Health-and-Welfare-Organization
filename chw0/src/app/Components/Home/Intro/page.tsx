@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Intro.module.css'
-import Contact from '@/app/Contact/page'
-
+import { League_Spartan } from 'next/font/google'
+const inter = League_Spartan({ subsets: ['latin'] })
 
 const Intro = () => {
   return (
@@ -10,7 +10,17 @@ const Intro = () => {
 <video autoPlay loop muted playsInline>
     <source src="chw.mp4" type="video/mp4" />
   </video>
-
+<div className={styles.card}>
+  <div className={styles.h1}>
+  <h1 className={inter.className}>Empowering</h1>
+  </div>
+  <div className={styles.h1}>
+  <h1 className={inter.className}>the future of</h1>
+  </div>
+  <div className={styles.h1}>
+  <h1 className={inter.className}>every child</h1>
+  </div>
+</div>
 </div>
 
   )
