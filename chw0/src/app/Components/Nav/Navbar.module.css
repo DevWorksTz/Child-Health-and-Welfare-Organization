@@ -12,7 +12,7 @@
     position:fixed;
     flex: 0 0 auto; 
     z-index: 100;
-    transform: translateX(75%);
+    transform: translateX(65%);
   }
   
   .logo {
