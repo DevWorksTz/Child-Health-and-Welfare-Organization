@@ -21,6 +21,9 @@ const Intro = () => {
   <h1 className={inter.className}>every child</h1>
   </div>
 </div>
+<div className={styles.text}>
+  <div className={styles.p}><p>At the Children’s Health & Wellness Center, we believe that every child deserves to be healthy and happy.</p></div>
+</div>
 </div>
 
   )
