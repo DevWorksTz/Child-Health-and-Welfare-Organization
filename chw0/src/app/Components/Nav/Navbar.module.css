@@ -3,12 +3,12 @@
   justify-content: center;
   align-items: center;
   padding: 0.5rem 1.5rem;
-  background-color: #fff;
+  background-color: royalblue;
   color: black;
   border-radius: 8px;
   margin: 0 auto;
   margin-top: 0.5rem;
-  opacity: 80%;
+  opacity: 90%;
   position: fixed;
   flex: 0 0 auto;
   z-index: 100;
@@ -58,7 +58,7 @@
 }
 
 .navLinks a:hover {
-  background-color: royalblue;
+  background-color: whitesmoke;
   opacity: 85%;
 }
 
