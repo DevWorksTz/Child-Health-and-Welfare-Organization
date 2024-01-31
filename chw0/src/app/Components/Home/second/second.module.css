@@ -3,9 +3,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
-    width:100vw;
     background-position: center;
+    display: flex; /* Flexbox for easy layout */
+    flex-direction: column; /* Stack elements vertically */ /* Center content vertically */
+  
 }
 .rectangle{
-    color:green;
+    color:black;
+    margin:1rem;
+    z-index: 1;
+    margin-left:6.5rem;
+
+}
+.text{
+    position:relative;
+    z-index: 2;
+    margin-top:-7rem;
+    font-size: 4rem;
+    color:whitesmoke;
+    
+
 }
