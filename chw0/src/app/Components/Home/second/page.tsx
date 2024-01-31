@@ -2,18 +2,47 @@ import React from 'react'
 import styles from './second.module.css'
 import { League_Spartan } from 'next/font/google'
 const inter = League_Spartan({ subsets: ['latin'] })
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 const Second = () => {
+  const { scrollYProgress } = useViewportScroll();
+  const scale = useTransform(scrollYProgress, [0.1, 0], [1, 0.5]);
   return (
-    <div className={styles.container}>
-<div className={styles.rectangle}>
-  <div className={styles.text1}>
-    
-    <svg width="550" height="110" className="bg-neutral-950 ml-11 opacity-80 border-rounded ">
-</svg><h1 className={styles.text}>KEY FOCUS AREAS</h1></div>
-
-</div>
-
+    <div className={styles.second}>
+       <motion.div  style={{
+          scale
+        }} >
+   <div className={styles.container}>
+      <div className="child-grid-1">
+        <div className={styles.header}>
+          <h1 className={inter.className}>KEY FOCUS AREAS</h1>
+        </div>
+      </div>
+      </div>
+      <div className="child-grid-2">
+        <div className={styles.textContainer1}>
+          <h1 className={inter.className}>
+            Early Childhood Education & Healthcare
+          </h1>
+          <p className={styles.text}>
+            We provide high-quality early childhood education programs that help
+            children develop the skills they need to succeed in school and life. We
+            also provide access to healthcare services for children in need.
+          </p>
+        
+        </div>
+        <div className={styles.textContainer2}>
+        <h1 className={inter.className}>Family Support</h1>
+          <p className={styles.text}>
+            We provide support services for families of children in need,
+            including parenting education, resource referrals, and social-emotional
+            support.
+          </p>
+          </div>
+      </div>
+      </motion.div>
     </div>
+
+  
   )
 }
 
