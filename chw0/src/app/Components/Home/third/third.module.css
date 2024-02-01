@@ -1,8 +1,7 @@
 .container{
-    background-image: url(./images/safari.jpg);
+    background-image: url(./images/school.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
-    width: 100vw;
 }

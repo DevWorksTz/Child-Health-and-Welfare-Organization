@@ -5,7 +5,7 @@ const inter = League_Spartan({ subsets: ['latin'] })
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 const Second = () => {
   const { scrollYProgress } = useViewportScroll();
-  const scale = useTransform(scrollYProgress, [0.2, 0], [1, 0.5]);
+  const scale = useTransform(scrollYProgress, [0.3, 0], [1, 0.5]);
   return (
     <div className={styles.second}>
        <motion.div  style={{
