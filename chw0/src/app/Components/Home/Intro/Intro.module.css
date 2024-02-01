@@ -39,6 +39,12 @@
     font-size:3rem;/* Single column layout on smaller screens */
   }  /* Space out headings */
 }
+.h2{
+  color:white;
+  font-size:3rem;
+justify-content: left;
+
+}
 .p{
   font-size:1.5rem;
   color:goldenrod;
