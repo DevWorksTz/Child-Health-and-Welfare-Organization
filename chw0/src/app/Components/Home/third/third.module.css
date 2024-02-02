@@ -1,7 +1,28 @@
-.container{
+.third{
     background-image: url(./images/school.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
+    display: flex;
+}
+.header{
+    font-size: 1rem;
+    color: white;
+    margin:1rem;
+    padding:1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.grids{
+    display:grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    width:30%
+}
+.cols{
+    margin:1rem;
+  
 }
