@@ -13,13 +13,28 @@ const Third = () => {
       </div>
       <div className={styles.grids}>
           <div className={styles.cols}>
-            hello brother
+            <div className={styles.fig}>
+              IMAGE
+            </div>
+            <div className={styles.link}>
+              TITLE TO LINK
+            </div>
           </div>
           <div className={styles.cols}>
-            hello brother
+          <div className={styles.fig}>
+              IMAGE
+            </div>
+            <div className={styles.link}>
+              TITLE TO LINK
+            </div>
           </div>
           <div className={styles.cols}>
-            hello brother
+          <div className={styles.fig}>
+              IMAGE
+            </div>
+            <div className={styles.link}>
+              TITLE TO LINK
+            </div>
           </div>
         </div>
         </div>
