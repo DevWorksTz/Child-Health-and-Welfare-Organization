@@ -1,9 +1,9 @@
-.about{
-background-image: url(./images/k.jpg);
-background-size: contain;
+.container{
+background-size: cover;
 background-position: center;
-display: grid;
-  grid-template-rows: auto 1fr;
-  border-radius: 20px;
-  margin-top: 5rem;
+height: 100vh; 
+}
+.about{
+  margin:5rem;
+  color: white;
 }
