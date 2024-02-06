@@ -7,7 +7,7 @@ const Contact = () => {
  Let's jump back in!
 
 Please resume onboarding to unlock the entire feature suite of daily.dev.
-The magic awaits inside!
+The magic awaits inside!jj
  </div>
   </div>
 
