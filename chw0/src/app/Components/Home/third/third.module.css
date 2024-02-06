@@ -1,42 +1,35 @@
 .third{
     background-image: url(./images/school.jpg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
-    display: flex;
+    background-position: center;
+    display: flex; /* Flexbox for easy layout */
+    flex-direction: column; /* Stack elements vertically */ /* Center content vertically */
+    overflow: hidden;
+    justify-content: center; /* Center content vertically */
+    align-items: center; 
 }
 .header{
-    font-size: 3rem;
-    color: white;
-    margin:1rem;
-    padding:1rem;
+    font-size:3rem;
+    color:white;
+    background-size: contain;
+    border-radius:10px;
 }
 .container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    display: grid;
+  padding:1rem;
+  grid-template-columns: 1fr;
 }
 .grids{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr ;
     width:100%;
     margin:1rem;
-    margin-top:6rem;
-
-}
-.cols{
-    margin:1rem;
-    background-color: rgba(124, 47, 3, 0.548);
-    display:flex;  
-    color:white;
     justify-content: space-between;
-    padding:1rem;
-    border-radius: 10px;
-    height:50%;
 }
-.fig{
-    padding:1rem;
+
+.cols{
     justify-content: space-between;
     margin: 1rem;
 }
