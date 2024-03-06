@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <Link href="/">CHWO</Link>
+        <Link href="/">CHWF</Link>
       </div>
       <button
         className={styles.hamburgerBtn}
@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link href="/About">Who we are</Link>
         </li>
         <li>
-          <Link href="/services">Projects</Link>
+          <Link href="/Events">Events</Link>
         </li>
         <li>
           <Link href="/Contact">Contact Us</Link>

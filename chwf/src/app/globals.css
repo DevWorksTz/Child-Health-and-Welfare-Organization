@@ -74,11 +74,11 @@
     @apply bg-background text-foreground;
     display:flex;
     flex-direction: column;
-    background-color:burlywood;
+    background-color:white;
   }
 }
 body {
   display:flex;
   flex-direction: column;
-  background-color:burlywood;
+  background-color:white;
 }

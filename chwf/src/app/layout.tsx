@@ -7,7 +7,7 @@ import Navbar from './Components/Nav/page'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Child Health and Welfare Organization',
+  title: 'Child Health and Welfare Foundation',
   description: 'Dev Workz Tz',
 }
 

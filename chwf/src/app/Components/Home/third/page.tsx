@@ -23,14 +23,16 @@ const Third = () => {
           scale
         }} >
         <div className={styles.container}>
+        <div className={styles.childgrid1}>
         <div className={styles.header}>
         <h1 className={inter.className}>News</h1>
+        </div>
       </div>
       <div className={styles.grids}>
           <div className={styles.cols}>
-            <Card className="bg-orange-200">
+            <Card className={styles.card}>
             <CardHeader>
-                <CardTitle>NEWS TITLE ONE</CardTitle>
+                <CardTitle className='text-white'>NEWS TITLE ONE</CardTitle>
                 <CardDescription>Date</CardDescription>
             </CardHeader>
             <CardContent >
@@ -48,9 +50,9 @@ const Third = () => {
             </Card>
           </div>
           <div className={styles.cols}>
-          <Card className="bg-orange-200">
+          <Card className={styles.card}>
           <CardHeader>
-              <CardTitle>NEWS TITLE TWO</CardTitle>
+              <CardTitle className='text-white'>NEWS TITLE TWO</CardTitle>
               <CardDescription>Date</CardDescription>
           </CardHeader>
           <CardContent>
@@ -68,9 +70,9 @@ const Third = () => {
           </Card>
           </div>
           <div className={styles.cols}>
-          <Card className="bg-orange-200">
+          <Card className={styles.card}>
           <CardHeader>
-              <CardTitle>NEWS TITLE THREE</CardTitle>
+              <CardTitle className='text-white'>NEWS TITLE THREE</CardTitle>
               <CardDescription>Date</CardDescription>
           </CardHeader>
           <CardContent>

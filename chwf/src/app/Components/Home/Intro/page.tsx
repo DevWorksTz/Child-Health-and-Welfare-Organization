@@ -18,11 +18,13 @@ const Intro = () => {
   <h1 className={inter.className}>Empowering the future of every child</h1>
 
   </div>
+  <div className={styles.right}>
     <p className={styles.p}>
     <div className={styles.h2}>
       <h1 className={inter.className}>OUR VISION</h1>
       </div>
       "A world where every child flourishes, achieving optimal health and well-being, empowering them to transform their lives and society."</p>
+</div>
 </div>
 </motion.div>
   </div>

@@ -1,5 +1,5 @@
 .third{
-    background-image: url(./images/school.jpg);
+    background-image: url(./images/third.png);
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -13,8 +13,9 @@
 .header{
     font-size:3rem;
     color:white;
-    background-size: contain;
+    background-size: cover;
     border-radius:10px;
+    background-color:#0c7c58;
 }
 .container{
     display: grid;
@@ -37,3 +38,12 @@
     padding:1rem;
     margin: 1rem;
 }
+.card{
+    background-color:#0c7c58;
+}
+.childgrid1 {
+    display: grid; /* Use grid for more control over layout */
+    grid-template-columns: 1fr;
+width:10%;
+  }
+  

@@ -1,5 +1,5 @@
 .second{
-    background-image: url(./images/k.jpg);
+    background-image: url(./images/second.png);
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -31,7 +31,7 @@
   }
   
   .header {
-    background-color: rgba(5, 193, 14, 0.636);
+    background-color: #0c7c58;
     font-size:3rem;
     color:white;
     background-size: contain;
@@ -57,7 +57,7 @@
     padding: 1rem;
     font-size: 1rem;
     color:white;
-    background-color:rgba(8, 71, 164, 0.547);
+    background-color:#0c7c58e3;
     display:flex;
     flex-direction:column;
  justify-content: center;
@@ -68,7 +68,7 @@
   .textContainer2,.textContainer3 {
     padding: 1rem;
     color:white;
-    background-color:rgba(8, 71, 164, 0.547);
+    background-color:#0c7c58e3;
     margin:1rem;
     display:flex;
     flex-direction:column;
@@ -81,6 +81,7 @@
   }
   .text {
     margin-bottom: 20px;
+    color:rgb(238, 255, 0);
     display:flex;
     font-size: 1.2rem;
     flex-direction:column;
