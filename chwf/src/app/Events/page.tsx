@@ -20,8 +20,12 @@ const events = [
 
 const IndexPage = () => {
   return (
+    <div className={styles.calendar}>
+        
     <div className={styles.container}>
+    <h1>Our Events this year</h1>
       <Timeline events={events}/>
+    </div>
     </div>
   );
 };

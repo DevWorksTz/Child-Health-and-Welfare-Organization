@@ -2,8 +2,7 @@
 .timeline {
     display: flex;
     width: 100%;
-    position: relative;
-    float:left; /* For the timeline line */
+    position: relative; /* For the timeline line */
   }
   
   .timeline ul {
@@ -31,7 +30,9 @@
   .timelinecontent {
     padding: 1rem;
     border-radius: 5px;
-    background-color:green;
+    background-color:#0C7C59;
+    width: fit-content;
+    color:white;
   }
   
   .timelinecontent h3 {
@@ -53,7 +54,7 @@
     position: absolute;
     top: 0;
     bottom: 40px;
-    width: 2px;
+    width: 6px;
     background-color:black;
     left: 50%;
     transform: translateX(-50%);
