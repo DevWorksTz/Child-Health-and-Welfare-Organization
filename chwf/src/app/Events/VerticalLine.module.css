@@ -1,0 +1,74 @@
+/* styles/Timeline.module.css */
+.timeline {
+    display: flex;
+    width: 100%;
+    position: relative;
+    float:left; /* For the timeline line */
+  }
+  
+  .timeline ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Customize appearance as desired */
+  .timelineitem {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .timelinedot {
+    /* Style timeline dots */
+    
+  }
+  
+  .timelinecontent {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color:green;
+  }
+  
+  .timelinecontent h3 {
+    /* Style timeline event titles */
+  }
+  
+  .timelinecontent p {
+    /* Style timeline event descriptions */
+  }
+  
+  .timelinecontent time {
+    /* Style timeline event dates */
+  }
+  
+  /* Add a line across the timeline */
+  /* Customize as needed for different timeline layouts */
+  .timeline:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 40px;
+    width: 2px;
+    background-color:black;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .right{ 
+    margin-right: 20%;
+    margin-bottom: 1rem;
+  }
+
+  .left{ 
+
+    margin-left: 20%;
+  }
+  .timeline ul::after {
+    content: "";
+    display: table-column;
+    clear: both;
+  }
