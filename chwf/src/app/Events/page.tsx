@@ -23,8 +23,10 @@ const IndexPage = () => {
     <div className={styles.calendar}>
         
     <div className={styles.container}>
-    <h1>Our Events this year</h1>
+    <div className={styles.header}><h1>Our Events this year</h1></div>
+    <div>
       <Timeline events={events}/>
+    </div>
     </div>
     </div>
   );
