@@ -23,7 +23,7 @@ const Intro = () => {
     <div className={styles.h2}>
       <h1 className={inter.className}>OUR VISION</h1>
       </div>
-      'A world where every child flourishes, achieving optimal health and well-being, empowering them to transform their lives and society.'</p>
+      A world where every child flourishes, achieving optimal health and well-being, empowering them to transform their lives and society.</p>
 </div>
 </div>
 </motion.div>
