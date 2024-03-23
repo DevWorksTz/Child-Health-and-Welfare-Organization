@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/chwfort1/repositories/Child-Health-and-Welfare-Organization/chwf
-    - /bin/cp page.tsx $DEPLOYPATH
+    - export DEPLOYPATH=/home/chwfort1/public_html
+    - /bin/cp server.js $DEPLOYPATH
