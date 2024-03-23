@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/chwfort1/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp page.tsx $DEPLOYPATH
