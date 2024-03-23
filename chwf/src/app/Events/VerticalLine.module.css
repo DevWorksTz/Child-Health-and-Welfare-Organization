@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    margin: 1rem;
+    margin: 2rem;
     justify-content: center;
     margin-bottom: 1rem;
   }
@@ -33,7 +33,17 @@
     background-color:#0C7C59;
     width: fit-content;
     color:white;
-  }
+    font-size: 1.02rem;
+
+    }
+    .timelineitem:before {
+      content:'';
+      position: absolute;
+      width: 6px;
+      background-color:black;
+      transform: translateX(-50%);
+      top: 0;
+      }
   
   .timelinecontent h3 {
     /* Style timeline event titles */
@@ -60,13 +70,14 @@
     transform: translateX(-50%);
   }
   .right{ 
-    margin-right: 20%;
+    margin-right: 30%;
     margin-bottom: 1rem;
   }
 
   .left{ 
 
-    margin-left: 20%;
+    margin-left: 30%;
+    
   }
   .timeline ul::after {
     content: "";
