@@ -7,7 +7,7 @@ const ContactUsFooter = () => {
       <div className={styles.container}>
         <div className={styles.contactInfo}>
           <h2>Contact Us</h2>
-          <p>We'd love to hear from you!</p>
+          <p>We would love to hear from you!</p>
           <ul>
             <li>
               <a href="mailto:your@email.com">Email</a>
