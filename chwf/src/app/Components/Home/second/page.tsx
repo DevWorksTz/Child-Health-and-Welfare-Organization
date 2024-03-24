@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import styles from './second.module.css'
 import { League_Spartan } from 'next/font/google'
