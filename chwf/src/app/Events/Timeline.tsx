@@ -1,7 +1,7 @@
 // components/Timeline.js
 import React from 'react';
 import styles from'./VerticalLine.module.css'
-const Timeline = ({ events }) => {
+const Timeline = ({ events }:) => {
   return (
     <div className={styles.timeline}>
       <ul>
