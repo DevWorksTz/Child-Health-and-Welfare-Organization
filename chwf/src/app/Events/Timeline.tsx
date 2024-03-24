@@ -5,7 +5,7 @@ const Timeline = ({ events }:{[key:string]:any}) => {
   return (
     <div className={styles.timeline}>
       <ul>
-        {events.map((event, index) => (
+        {events.map((event:any, index:any) => (
           <li key={index} className={`${styles.timelineitem} ${styles[event.side]}`}>
             <div className={styles.timelinedot}></div>
             <div className={styles.timelinecontent}>
